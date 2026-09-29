@@ -10,7 +10,7 @@ class CatalogService {
   static List<CatalogItem> get fallbackCatalog => [
         CatalogItem(
           id: 1,
-          anilistId: 21519, // Kimi no Na wa
+          anilist_id: 21519, // Kimi no Na wa
           addedDate: '2026-09-20',
           episodes: [
             CatalogEpisode(
@@ -30,7 +30,7 @@ class CatalogService {
         ),
         CatalogItem(
           id: 2,
-          anilistId: 20, // Naruto
+          anilist_id: 20, // Naruto
           addedDate: '2026-09-21',
           episodes: [
             CatalogEpisode(
@@ -50,7 +50,7 @@ class CatalogService {
         ),
         CatalogItem(
           id: 3,
-          anilistId: 1, // Cowboy Bebop
+          anilist_id: 1, // Cowboy Bebop
           addedDate: '2026-09-22',
           episodes: [
             CatalogEpisode(
@@ -70,7 +70,7 @@ class CatalogService {
         ),
         CatalogItem(
           id: 4,
-          anilistId: 1535, // Death Note
+          anilist_id: 1535, // Death Note
           addedDate: '2026-09-23',
           episodes: [
             CatalogEpisode(

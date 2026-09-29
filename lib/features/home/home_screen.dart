@@ -68,7 +68,7 @@ class HomeScreen extends ConsumerWidget {
               data: (historyList) {
                 if (historyList.isEmpty) return const SizedBox.shrink();
                 return Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment: CrossAlignment.start,
                   children: [
                     const Text(
                       'Lanjutkan Menonton',
@@ -154,7 +154,7 @@ class HomeScreen extends ConsumerWidget {
                                     right: 12,
                                     child: Column(
                                       crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                          CrossAlignment.start,
                                       children: [
                                         Text(
                                           detail?.displayTitle ?? 'Anime #$animeId',

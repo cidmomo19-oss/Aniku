@@ -52,7 +52,7 @@ class _YoutubePlayerWidgetState extends State<YoutubePlayerWidget> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAlignment.start,
       children: [
         AspectRatio(
           aspectRatio: 16 / 9,
@@ -68,7 +68,7 @@ class _YoutubePlayerWidgetState extends State<YoutubePlayerWidget> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAlignment.start,
             children: [
               Text(
                 widget.episodeTitle,

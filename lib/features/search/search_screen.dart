@@ -122,7 +122,7 @@ class _SearchScreenState extends ConsumerState<SearchScreen> {
                       }).toList();
 
                       return Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        crossAxisAlignment: CrossAlignment.start,
                         children: [
                           if (allGenres.isNotEmpty)
                             SizedBox(

@@ -33,7 +33,7 @@ class _AnimeCardState extends State<AnimeCard> {
         duration: const Duration(milliseconds: 120),
         curve: Curves.easeOut,
         child: Column(
-          crossAxisAlignment: CrossAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
               child: Stack(

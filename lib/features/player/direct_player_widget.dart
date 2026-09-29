@@ -226,7 +226,7 @@ class _DirectPlayerWidgetState extends State<DirectPlayerWidget> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // Video Viewport with Custom UI Overlay
         AspectRatio(
@@ -512,7 +512,7 @@ class _DirectPlayerWidgetState extends State<DirectPlayerWidget> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
-            crossAxisAlignment: CrossAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
                 widget.episodeTitle,

@@ -67,7 +67,7 @@ class _PlayerScreenState extends ConsumerState<PlayerScreen> {
             (item) => item.anilistId == widget.animeId,
             orElse: () => CatalogItem(
               id: widget.animeId,
-              anilist_id: widget.animeId,
+              anilistId: widget.animeId,
               addedDate: '',
               episodes: [],
             ),
@@ -112,7 +112,7 @@ class _PlayerScreenState extends ConsumerState<PlayerScreen> {
 
           return SingleChildScrollView(
             child: Column(
-              crossAxisAlignment: CrossAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 if (episode.videoType == 'youtube')
                   YoutubePlayerWidget(
@@ -208,7 +208,7 @@ class _PlayerScreenState extends ConsumerState<PlayerScreen> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: Column(
-                    crossAxisAlignment: CrossAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
                         'Pilih Episode',

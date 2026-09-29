@@ -68,7 +68,7 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
             (item) => item.anilistId == widget.animeId,
             orElse: () => CatalogItem(
               id: widget.animeId,
-              anilist_id: widget.animeId,
+              anilistId: widget.animeId,
               addedDate: '',
               episodes: [],
             ),
@@ -134,11 +134,11 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: Column(
-                    crossAxisAlignment: CrossAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       // Poster + Main Info Header
                       Row(
-                        crossAxisAlignment: CrossAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           ClipRRect(
                             borderRadius: BorderRadius.circular(16),
@@ -157,7 +157,7 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
                           const SizedBox(width: 16),
                           Expanded(
                             child: Column(
-                              crossAxisAlignment: CrossAlignment.start,
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
                                   detail.displayTitle,
@@ -476,7 +476,7 @@ class _DetailScreenState extends ConsumerState<DetailScreen> {
                                     Expanded(
                                       child: Column(
                                         crossAxisAlignment:
-                                            CrossAlignment.start,
+                                            CrossAxisAlignment.start,
                                         children: [
                                           Text(
                                             'Episode ${ep.episodeNumber}',

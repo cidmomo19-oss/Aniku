@@ -60,7 +60,7 @@ class AboutScreen extends StatelessWidget {
               border: Border.all(color: AppColors.surface2),
             ),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAlignment.start,
               children: [
                 const Row(
                   children: [
@@ -114,7 +114,7 @@ class AboutScreen extends StatelessWidget {
               borderRadius: BorderRadius.circular(16),
             ),
             child: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAlignment.start,
               children: [
                 Text(
                   'Deskripsi Proyek',

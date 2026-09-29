@@ -154,7 +154,7 @@ class HistoryScreen extends ConsumerWidget {
                         const SizedBox(width: 14),
                         Expanded(
                           child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: CrossAlignment.start,
                             children: [
                               Text(
                                 animeTitle,
